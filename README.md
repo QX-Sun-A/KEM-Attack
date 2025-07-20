@@ -2,6 +2,10 @@
 
 KEM-Attack code implementation
 
+## Dataset
+
+All required datasets (MR, IMDB, Yelp, AG's News) are available in the `data/` directory of this repository.
+
 ## Implementation Instruction
 + Fork the repository https://github.com/RishabhMaheshwary/hard-label-attack and follow its instruction to install the environment
 + First, run the code from hard-label-attack. Then simply run the run.sh script
