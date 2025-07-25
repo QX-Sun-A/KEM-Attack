@@ -4,7 +4,16 @@ KEM-Attack code implementation
 
 ## Dataset
 
-All required datasets (MR, IMDB, Yelp, AG's News) are available in the `data/` directory of this repository.
+The `data/` directory contains four benchmark text classification datasets:
+
+| Dataset    | #Classes | Samples | Avg. Length |
+|------------|----------|---------|-------------|
+| **MR**     | 2        | 1,000   | 20          |
+| **IMDB**   | 2        | 1,000   | 215         |
+| **Yelp**   | 2        | 1,000   | 152         |
+| **AG's News** | 4      | 1,000   | 43          |
+
+Each dataset contains 1,000 correctly classified test samples formatted for direct use.
 
 ## Implementation Instruction
 + Fork the repository https://github.com/RishabhMaheshwary/hard-label-attack and follow its instruction to install the environment
