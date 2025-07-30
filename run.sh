@@ -33,7 +33,7 @@ max_iter=20
 max_replacements=6
 
 # Run the attack
-python KEMAttack.py \
+python KEM-Attack.py \
     --dataset_path data/${DATASET} \
     --target_model bert \
     --target_model_path ${model_path} \
